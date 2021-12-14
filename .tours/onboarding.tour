@@ -1,0 +1,47 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Onboarding",
+  "steps": [
+    {
+      "file": "src/foo.h",
+      "description": "Include guard",
+      "line": 1
+    },
+    {
+      "file": "src/foo.h",
+      "description": "An example function declaration",
+      "line": 4
+    },
+    {
+      "file": "src/foo.c",
+      "description": "Include the header (not strictly necessary here)",
+      "line": 1
+    },
+    {
+      "file": "src/foo.c",
+      "description": "Function definition",
+      "line": 3
+    },
+    {
+      "file": "src/main.c",
+      "description": "Include the header here, to obtain the function declaration",
+      "line": 2
+    },
+    {
+      "file": "src/main.c",
+      "description": "Use the function here",
+      "line": 6,
+      "selection": {
+        "start": {
+          "line": 6,
+          "character": 25
+        },
+        "end": {
+          "line": 6,
+          "character": 46
+        }
+      }
+    }
+  ],
+  "ref": "master"
+}
